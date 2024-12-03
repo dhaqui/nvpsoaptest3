@@ -16,7 +16,8 @@ module.exports = async (req, res) => {
     CANCELURL: "https://your-vercel-domain.vercel.app/public/cancel.html",
     PAYMENTREQUEST_0_AMT: "10.00",
     PAYMENTREQUEST_0_CURRENCYCODE: "USD",
-    PAYMENTREQUEST_0_PAYMENTACTION: "Sale",
+   // PAYMENTREQUEST_0_PAYMENTACTION: "Sale",
+    PAYMENTREQUEST_0_PAYMENTACTION: "Order",
   });
 
   const options = {
